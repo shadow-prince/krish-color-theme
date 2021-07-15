@@ -3,7 +3,7 @@
     "displayName": "Krish Color Theme",
     "description": "",
     "publisher": "SaiKishore",
-    "version": "1.0.3",
+    "version": "2.0.1",
     "icon": "Icon/icon.png",
     "engines": {
         "vscode": "^1.58.0"

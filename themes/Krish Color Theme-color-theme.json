@@ -4,7 +4,7 @@
   "colors": {
     "editor.background": "#1f0022",
     "editor.foreground": "#eeffff",
-    "activityBarBadge.background": "#9e2998",
+    "activityBarBadge.background": "#0c0404",
     "sideBarTitle.foreground": "#c5c1c92f",
     "activityBar.activeBorder": "#06f826",
     "activityBar.foreground": "#ffffff",
@@ -12,18 +12,101 @@
     "tab.activeBorder": "#6f42c1",
     "tab.hoverBackground": "#6f42c1",
     "tab.hoverForeground": "#000000",
-    "titleBar.activeBackground": "#0c0404",
-    "sideBar.background": "#0c0404",
-    "menu.background": "#0a1412",
-   
+
+    "sideBar.background": "#0c0c0c",
+
+    "statusBar.foreground": "#eeffff",
+    "statusBar.background": "#6f42c1",
+    "terminal.background": "#2E2A31",
+    "dropdown.border": "#50504F",
+
+    "input.border": "#50504F",
+    "inputOption.activeBorder": "#B2B2B1",
+
+    "list.activeSelectionForeground": "#F3C900",
+    "list.activeSelectionBackground": "#212121",
+    "list.inactiveSelectionForeground": "#F3C900",
+    "list.inactiveSelectionBackground": "#212121",
+    "list.hoverBackground": "#212121",
+    "list.focusBackground": "#212121",
+    "list.dropBackground": "#333332",
+    "list.highlightForeground": "#F8F8F2",
+    "list.errorForeground": "#F3002B",
+    "list.warningForeground": "#F3C900",
+    "titleBar.activeBackground": "#080808",
+    "titleBar.activeForeground": "#878787",
+    "titleBar.inactiveBackground": "#080808",
+    "titleBar.inactiveForeground": "#878787",
+
+    "notificationCenterHeader.foreground": "#B2B2B1",
+    "notificationCenterHeader.background": "#3D3D3C",
+    "notifications.foreground": "#F8F8F2",
+    "notifications.background": "#292928",
+    "notifications.border": "#3D3D3C",
+    "notificationLink.foreground": "#00A4F3",
+    "extensionButton.prominentForeground": "#FFFFFF",
+    "extensionButton.prominentBackground": "#00A4F3",
+    "extensionButton.prominentHoverBackground": "#0093DA",
+
+    "sideBar.foreground": "#8C8C8A",
+    "sideBarSectionHeader.foreground": "#B2B2B1",
+    "sideBarSectionHeader.background": "#212121",
+    "terminal.foreground": "#BCBABE",
+    "terminalCursor.background": "#BCBABE",
+    "terminalCursor.foreground": "#BCBABE",
+    "terminal.ansiBlack": "#2E2A31",
+    "terminal.ansiBlue": "#796AF5",
+    "terminal.ansiBrightBlack": "#838085",
+    "terminal.ansiBrightBlue": "#796AF5",
+    "terminal.ansiBrightCyan": "#149BDA",
+    "terminal.ansiBrightGreen": "#17AD98",
+    "terminal.ansiBrightMagenta": "#BB60EA",
+    "terminal.ansiBrightRed": "#D8137F",
+    "terminal.ansiBrightWhite": "#F5F4F7",
+    "terminal.ansiBrightYellow": "#DC8A0E",
+    "terminal.ansiCyan": "#149BDA",
+    "terminal.ansiGreen": "#17AD98",
+    "terminal.ansiMagenta": "#BB60EA",
+    "terminal.ansiRed": "#D8137F",
+    "terminal.ansiWhite": "#BCBABE",
+    "terminal.ansiYellow": "#DC8A0E",
+
+
+    
+    "pickerGroup.border": "#F3C900",
+    "pickerGroup.foreground": "#F3C900",
+
+    "debugToolBar.background": "#3D3D3C",
+
+    "welcomePage.buttonBackground": "#292928",
+    "welcomePage.buttonHoverBackground": "#0B0B0B",
+    "walkThrough.embeddedEditorBackground": "#0B0B0B",
+
+    "gitDecoration.modifiedResourceForeground": "#F3C900",
+    "gitDecoration.deletedResourceForeground": "#F3002B",
+    "gitDecoration.untrackedResourceForeground": "#00F3C9",
+    "gitDecoration.ignoredResourceForeground": "#8C8C8A",
+    "gitDecoration.conflictingResourceForeground": "#FF41C1",
+
+    "breadcrumb.foreground": "#6D6D6D",
+    "breadcrumb.focusForeground": "#8C8C8A",
+    "breadcrumb.activeSelectionForeground": "#D0D0D0",
+    "breadcrumbPicker.background": "#292928",
+
+    "menu.background": "#0c0c0c", 
+    "menu.foreground": "#8C8C8A",
+    "menu.selectionBackground": "#212121",
+    "menubar.selectionBackground": "#212121",
+
   },
+
   "tokenColors": [
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#fcb47c"
+        "foreground": "#6bccbc"
       }
     },
     {
@@ -38,6 +121,13 @@
       "scope": ["constant.other.color"],
       "settings": {
         "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Code Block (```)",
+      "scope": ["markup.fenced_code punctuation"],
+      "settings": {
+        "foreground": "#B8FCB1"
       }
     },
     {
@@ -95,7 +185,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#d940ff"
       }
     },
     {
@@ -125,7 +215,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#7a6cf7"
       }
     },
     {
