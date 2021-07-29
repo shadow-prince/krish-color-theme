@@ -9,6 +9,7 @@
  
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/SaiKishore.krish-color-theme?label=krish-color-theme&logo=visual&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=SaiKishore.krish-color-theme)
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 
 </div>
 
